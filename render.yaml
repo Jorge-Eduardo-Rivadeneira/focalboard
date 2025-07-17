@@ -3,6 +3,6 @@ services:
     name: focalboard
     env: docker
     dockerfilePath: docker/Dockerfile
-    plan: starter
-    region: oregon
+    plan: free
+    region: frankfurt
     autoDeploy: true
