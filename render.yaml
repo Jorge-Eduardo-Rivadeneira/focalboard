@@ -6,3 +6,14 @@ services:
     plan: free
     region: frankfurt
     autoDeploy: true
+    envVars:
+      - key: FOCALBOARD_PORT
+        value: 8000
+      - key: FOCALBOARD_DB_TYPE
+        value: sqlite3
+      - key: FOCALBOARD_DB_CONFIG
+        value: /data/focalboard.db
+      - key: DiagnosticId
+        value: focalboard-server-001
+      - key: TELEMETRY
+        value: true
