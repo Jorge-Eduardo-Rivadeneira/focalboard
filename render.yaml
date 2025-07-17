@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: focalboard
+    env: docker
+    dockerfilePath: docker/Dockerfile
+    plan: starter
+    region: oregon
+    autoDeploy: true
